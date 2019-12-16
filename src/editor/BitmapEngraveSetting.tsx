@@ -71,8 +71,8 @@ export default function BitmapEngraveSetting(props: BitmapEngraveSettingProps) {
         validate={validationHandler}
       />
       <InputNumber
-        label="Speed * (100 - 1400)"
-        max="1400"
+        label="Speed * (100 - 1000)"
+        max="1000"
         min="100"
         onBlur={saveTemporaryState}
         onChange={(event) => {
